@@ -1,0 +1,202 @@
+/* Variables */
+
+:root {
+  /* COLORS */
+  --clr-primary-100: hsl(0, 78%, 62%);
+  --clr-primary-200: hsl(180, 62%, 55%);
+  --clr-primary-300: hsl(34, 97%, 64%);
+  --clr-primary-400: hsl(212, 86%, 64%);
+
+  --clr-neutral-100: hsl(234, 12%, 34%);
+  --clr-neutral-200: hsl(229, 6%, 66%);
+  --clr-neutral-300: hsl(0, 0%, 98%);
+
+  /* FONT SIZE */
+  --fs-primary: 0.9375rem;
+
+  /* FONT FAMILY */
+  --ff-primary: "Poppins", sans-serif;
+
+  /* FONT WEIGHTS */
+  --fw-primary-100: 200;
+  --fw-primary-200: 400;
+  --fw-primary-300: 600;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* I STARTED HERE */
+
+/* GENERAL STYLES */
+body {
+  padding: 4em;
+  background-color: var(--clr-neutral-300);
+  font-size: var(--fs-primary);
+  font-family: var(--ff-primary);
+}
+
+span {
+  font-weight: var(--fw-primary-100);
+}
+
+h1,
+h2 {
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-primary-300);
+}
+
+p {
+  font-weight: var(--fw-primary-100);
+  color: var(--clr-neutral-200);
+}
+
+/* HEADER STYLES */
+header {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header > p{
+    padding: 1em 0 0 0;
+}
+
+/* SECTION STYLES */
+article {
+  padding: 5em 0;
+  display: grid;
+  gap: 2em;
+}
+
+section {
+  display: grid;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 3px 5px 10px 1px hsla(229, 6%, 66%, 0.5);
+  padding: 2.5em;
+  border-radius: 5px;
+}
+
+section > p {
+  padding: 0.7em 0 3em;
+}
+
+.feature-one {
+  border-top: 3px solid var(--clr-primary-200);
+}
+
+.feature-two {
+  border-top: 3px solid var(--clr-primary-100);
+}
+
+.feature-three {
+  border-top: 3px solid var(--clr-primary-300);
+}
+
+.feature-four {
+  border-top: 3px solid var(--clr-primary-400);
+}
+
+.feature-image {
+  justify-self: end;
+}
+
+/* FOR LARGER SCREENS */
+@media (min-width: 768px) {
+  article {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .feature-one {
+    grid-area: 2/1/4/2;
+  }
+
+  .feature-two {
+    grid-area: 1/2/3/3;
+  }
+
+  .feature-three {
+    grid-area: 3/2/5/3;
+  }
+
+  .feature-four {
+    grid-area: 2/3/4/4;
+  }
+}
