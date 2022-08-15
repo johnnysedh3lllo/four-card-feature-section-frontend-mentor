@@ -102,7 +102,7 @@ select {
 
 /* GENERAL STYLES */
 body {
-  padding: 4em;
+  padding: 6em;
   background-color: var(--clr-neutral-300);
   font-size: var(--fs-primary);
   font-family: var(--ff-primary);
