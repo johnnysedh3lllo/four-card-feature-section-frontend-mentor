@@ -180,7 +180,7 @@ section > p {
     gap: 2em;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    max-width: 75%;
+    max-width: 80%;
     margin: 0 auto;
   }
 
