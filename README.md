@@ -27,7 +27,7 @@ Users should be able to:
 - Solution URL: [Frontend Mentor]
 (https://www.frontendmentor.io/solutions/mobile-first-responsive-four-card-feature-section-made-with-css-grid-AZTNw_1T_r)
 
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [GitHub]
 (https://johnnysedh3lllo.github.io/four-card-feature-section-frontend-mentor/)
 
 ## My process
