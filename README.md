@@ -24,11 +24,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]
-(https://www.frontendmentor.io/solutions/mobile-first-responsive-four-card-feature-section-made-with-css-grid-AZTNw_1T_r)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-responsive-four-card-feature-section-made-with-css-grid-AZTNw_1T_r)
 
-- Live Site URL: [GitHub]
-(https://johnnysedh3lllo.github.io/four-card-feature-section-frontend-mentor/)
+- Live Site URL: [GitHub](https://johnnysedh3lllo.github.io/four-card-feature-section-frontend-mentor/)
 
 ## My process
 
@@ -48,8 +46,8 @@ this challenge has added to my understanding of the behaviour or CSS Grid.
 in other challenges i will focus more on better understanding responsive layouts and how to better use CSS properties.
 
 ## Author
-- GitHub - [johnnysedh3lllo] (https://github.com/johnnysedh3lllo)
+- GitHub - [johnnysedh3lllo](https://github.com/johnnysedh3lllo)
 
-- Frontend Mentor - [@johnnysedh3lllo] (https://www.frontendmentor.io/profile/johnnysedh3lllo)
+- Frontend Mentor - [@johnnysedh3lllo](https://www.frontendmentor.io/profile/johnnysedh3lllo)
 
 - Twitter - [@johnnysedh3lllo](https://www.twitter.com/johnnysedh3lllo)
